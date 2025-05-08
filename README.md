@@ -7,7 +7,6 @@ Este projeto é um jogo de quiz onde o usuário deve identificar corretamente a 
 - Exibição de uma bandeira aleatória.
 - Lista de opções com nomes de países.
 - Feedback visual indicando se a resposta está correta ou incorreta.
-- Contagem de pontos baseada nas respostas corretas.
 - Reinício automático após cada rodada.
 
 ## 🧪 Tecnologias Utilizadas
@@ -17,6 +16,8 @@ Este projeto é um jogo de quiz onde o usuário deve identificar corretamente a 
 - JavaScript (puro)
 
 ## ▶️ Como Usar
+
+[Clique aqui para ser direcionado a página](https://mickeiasdev.github.io/exercicio-flag-quiz-programacao-web-com-javascript-2/)
 
 1. Clone o repositório:
    ```bash
