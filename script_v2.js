@@ -47,6 +47,7 @@ const validation = (btn) => {
 
     setTimeout(() => {
         if (tentativas === 10) {
+            message.innerHTML = "";
             if (pontuacao >= 7) {
                 resultado.innerHTML = `Parabens! Voce conseguiu ${pontuacao} acertos!`;
             } else {
@@ -59,11 +60,11 @@ const validation = (btn) => {
                 resultado.innerHTML = "";
                 message.innerHTML = "";
                 generateFlag();
-            }, 2000);
+            }, 5000);
         } else {
             setTimeout(() => generateFlag(), 1500);
         }
-    });
+    }, 2000);
 };
 
 loadingLocales();
